@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Bump your package version and commit",
   "main": "index.js",
+  "bin": {
+    "bump": "bin/bump.js"
+  },
   "scripts": {
     "test": "mocha"
   },
