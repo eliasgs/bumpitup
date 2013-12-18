@@ -26,4 +26,10 @@ describe('bump', function () {
       success('0.0.0-0', done);
     });
   });
+  it('should be able to bump patch', function (done) {
+    bump(temp + '/package.json', 'patch', function (err) {
+      if (err) throw err;
+      success('0.0.1', done);
+    });
+  });
 });
