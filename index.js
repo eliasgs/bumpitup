@@ -4,8 +4,9 @@ var exec = require('child_process').exec;
 
 module.exports = function bump(path, release) {
   var pkg = require(path);
-
   var version = pkg.version;
+  release = release || 'patch';
+
   pkg.version = ver.inc(version, release);
   if (pkg.version) {
     fs.writeFileSync(path, JSON.stringify(pkg, null, 2));
