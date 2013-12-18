@@ -1,0 +1,33 @@
+{
+  "name": "bumpitup",
+  "version": "0.1.0",
+  "description": "Bump your package version and commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elias/bumpitup"
+  },
+  "keywords": [
+    "command",
+    "line",
+    "package.json",
+    "bump",
+    "version",
+    "increase",
+    "semver",
+    "git",
+    "commit"
+  ],
+  "author": "Elias G. Schneevoigt <eliasgs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elias/bumpitup/issues"
+  },
+  "homepage": "https://github.com/elias/bumpitup",
+  "dependencies": {
+    "semver": "~2.2.1"
+  }
+}
