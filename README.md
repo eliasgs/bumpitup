@@ -13,7 +13,8 @@ npm install -g bumpitup
 ## Usage
 
 The executable is named ``bump`` and takes a release type (``prerelease``,
-``patch``, ``minor`` or ``major``) as the first argument.
+``patch``, ``minor`` or ``major``) as the first argument (defaults to
+``patch``).
 
 ```bash
 bump patch
