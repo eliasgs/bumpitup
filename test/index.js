@@ -32,4 +32,16 @@ describe('bump', function () {
       success('0.0.1', done);
     });
   });
+  it('should be able to bump minor', function (done) {
+    bump(temp + '/package.json', 'minor', function (err) {
+      if (err) throw err;
+      success('0.1.0', done);
+    });
+  });
+  it('should be able to bump major', function (done) {
+    bump(temp + '/package.json', 'major', function (err) {
+      if (err) throw err;
+      success('1.0.0', done);
+    });
+  });
 });
