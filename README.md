@@ -1,4 +1,4 @@
-# bumpitup
+# bumpitup [![Build Status](https://travis-ci.org/eliasgs/bumpitup.png?branch=master)](https://travis-ci.org/eliasgs/bumpitup)
 
 Increase your version in ``package.json`` and create a new commit with the
 bumped version number as commit message.
