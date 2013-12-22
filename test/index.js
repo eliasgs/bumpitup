@@ -18,7 +18,7 @@ describe('bump', function () {
     exec('rsync -a fixture/ temp', options, done);
   });
   afterEach(function (done) {
-    exec('rm -rf temp', options, done);
+    exec('rsync -a fixture/ temp', options, done);
   });
   it('should be able to bump prerelease', function (done) {
     bump(temp + '/package.json', 'prerelease', function (err) {
