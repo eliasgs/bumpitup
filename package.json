@@ -32,5 +32,8 @@
   "homepage": "https://github.com/elias/bumpitup",
   "dependencies": {
     "semver": "~2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.1"
   }
 }
