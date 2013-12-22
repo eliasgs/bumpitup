@@ -15,7 +15,7 @@ describe('bump', function () {
     });
   }
   beforeEach(function (done) {
-    exec('cp -a fixture temp', options, done);
+    exec('cp -a fixture/ temp', options, done);
   });
   afterEach(function (done) {
     exec('rm -rf temp', options, done);
