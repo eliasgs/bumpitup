@@ -14,7 +14,7 @@ module.exports = function bump(file, release, callback) {
     console.log('version increased from %s to %s',
                 '\u001b[31m' + version + '\u001b[39m', 
                 '\u001b[32m' + pkg.version + '\u001b[39m');
-    exec('git commit -am "v'+pkg.version+'"',
+    exec('git add package.json && git commit -m "v'+pkg.version+'"',
          {cwd: path.dirname(file)}, callback);
   } else {
     callback(new Error('could not increase version: ' + pkg.version));
