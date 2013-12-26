@@ -1,6 +1,6 @@
 {
   "name": "bumpitup",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Bump your package version and commit",
   "main": "index.js",
   "bin": {
